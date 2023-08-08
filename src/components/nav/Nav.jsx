@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-function Nav({ currentPage }) {
+export default function Nav({ currentPage }) {
   const pages = ["portfolio", "contact", "resume"];
 
   return (
-    <nav>
-      <ul className="flex-row">
+    <nav className="flex justify-between items-center w-[98%]  mx-auto">
+      <ul className="flex flex-col text-5xl">
         <li
           className={`mx-5 ${currentPage === "/" && "navActive"}`}
           key="about"
@@ -15,7 +15,7 @@ function Nav({ currentPage }) {
         </li>
         {pages.map((Page) => (
           <li
-            className={`mx-5 ${currentPage === `/${Page}` && "navActive"}`}
+            className={`m-0 ${currentPage === `/${Page}` && "navActive"}`}
             key={Page}
           >
             <Link to={`/${Page}`}>{capitalizeFirstLetter(Page)}</Link>
@@ -26,4 +26,4 @@ function Nav({ currentPage }) {
   );
 }
 
-export default Nav;
+
