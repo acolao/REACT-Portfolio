@@ -1,4 +1,4 @@
-function Footer() {
+export default function Footer() {
 
   // Replace links with social media profiles
   const icons = [
@@ -27,4 +27,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+

@@ -1,4 +1,3 @@
-import coverImage from "../../assets/cover/dream.jpg";
 import { Link } from "react-router-dom";
 import { capitalizeFirstLetter } from "../../utils/helpers";
 

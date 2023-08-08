@@ -1,23 +1,16 @@
-import Header from "./components/Header";
-import Nav from "./components/Nav";
-import Footer from "./components/Footer";
-import Page from "./components/Page";
-import { useLocation } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
+import Nav from '../src/components/nav/Nav.jsx';
 
-function App() {
+export default function App() {
   const currentPage = useLocation().pathname;
 
   return (
+    //write what will be rendered
     <div>
-      <Header>
-        <Nav currentPage={currentPage} />
-      </Header>
-      <main>
-        <Page currentPage={currentPage} />
-      </main>
-      <Footer />
+      <Nav />
+      <Outlet />
     </div>
   );
 }
 
-export default App;
+
