@@ -4,8 +4,8 @@ import aboutImage from "../../assets/headshot.jpg"
 export default function About() {
   return (
     <section>
-      <h2>About Me</h2>
       <div>
+        <h2>About Me</h2>
         <img src={aboutImage} alt="photo" className="image-style-1"/>
         <p className="paragraph">
           Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch

@@ -98,7 +98,7 @@ header {
 }
 
 header a {
-  color: var(--light);
+  color: black;
 }
 
 button {
@@ -192,6 +192,7 @@ nav {
   font-family: Georgia, serif;
   font-size: 2.5rem;
   margin: 30px 20px;
+  color: black;
 }
 
 nav a:hover {
@@ -214,11 +215,12 @@ ul.skills li {
 
 .image-style-1 {
   border-radius: 40%;
-  width: 350px;
+  width: 400px;
   height: 500px;
   float: right;
-  margin-bottom: 200px;
-  margin-top: 10px;
+  border: 15px solid #9e997e;
+  padding: 50px;
+  margin: 20px;
 }
 
 .paragraph {

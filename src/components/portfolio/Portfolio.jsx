@@ -21,6 +21,24 @@ export default function Portfolio() {
       link: "https://epicasino.github.io/Feed-Me/",
       repo: "https://github.com/epicasino/Feed-Me.git",
     },
+    {
+      name: "recipeSearcher",
+      description: "API",
+      link: "https://epicasino.github.io/Feed-Me/",
+      repo: "https://github.com/epicasino/Feed-Me.git",
+    },
+    {
+      name: "recipeSearcher",
+      description: "API",
+      link: "https://epicasino.github.io/Feed-Me/",
+      repo: "https://github.com/epicasino/Feed-Me.git",
+    },
+    {
+      name: "recipeSearcher",
+      description: "API",
+      link: "https://epicasino.github.io/Feed-Me/",
+      repo: "https://github.com/epicasino/Feed-Me.git",
+    },
   ]);
 
   return (
