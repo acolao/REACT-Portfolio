@@ -2,7 +2,7 @@ import { useState } from "react";
 import Project from "../project/Project.jsx";
 
 export default function Portfolio() {
-  const [projects] = useState([
+  const [project] = useState([
     {
       name: "logoCreator",
       description: "SVG Generator",
@@ -26,7 +26,7 @@ export default function Portfolio() {
   return (
     <div>
       <div className="flex-row">
-        {projects.map((project, idx) => (
+        {project.map((project, idx) => (
           <Project project={project} key={"project" + idx} />
         ))}
       </div>
