@@ -17,7 +17,7 @@ export default function Footer() {
   ]
 
   return (
-    <footer className="flex-row px-1">
+    <footer className="footer">
       {icons.map(icon =>
       (
         <a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>

@@ -1,10 +1,13 @@
-import "../../../src/App.css"
+import { Link } from "react-router-dom";
+import aboutImage from "../../assets/headshot.jpg"
 
 export default function About() {
   return (
-    <div>
-      <section className="bg-black">
-        <p>
+    <section>
+      <h2>About Me</h2>
+      <div>
+        <img src={aboutImage} alt="photo" className="image-style-1"/>
+        <p className="paragraph">
           Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch
           Etsy authentic Marfa quinoa typewriter plaid direct trade small batch
           wayfarers bicycle rights cliche craft beer gastropub single-origin
@@ -12,8 +15,7 @@ export default function About() {
           kitsch synth sriracha gentrify literally heirloom blog Truffaut paleo
           scenester
         </p>
-      </section>
-    </div>
+        </div>
+    </section>
   );
 }
-
